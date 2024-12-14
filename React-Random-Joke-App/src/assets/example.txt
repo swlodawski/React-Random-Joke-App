@@ -1,0 +1,17 @@
+Prerequisite: The pre-requisites for this project are:
+
+React
+Function Components
+ReactJS AJAX and API
+useState
+Approach: The “Joke” file is a functional component and contains a state variable Joke, which initially set to an empty string, and depending upon the state of the Joke, the output gets rendered. The Component outputs the “Button” component which on click generates a joke. The “Button” component that is getting rendered is also an imported functional component that outputs a button element. We are also passing some props to the “Button” component, which is a method named callAPI. The prop is fetching the Joke from API whenever the code is being fetched 
+
+Step 3: Create a folder called components and add two files in it Button.js and Joke.js
+
+Example: Write the following code in respective files.
+
+App.js: This file imports the components to render it on the web page
+Joke.js: This file contains the joke to be displayed and makes the API call
+Joke.css: This file contains the styling of all the elements 
+Button.js: This file contains the button component which generates the joke on click
+Button.css: This file contains the styling of button element

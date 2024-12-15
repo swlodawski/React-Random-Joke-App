@@ -1,14 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import './components/Joke/Joke';
 function App() {
   
 
   return (
-    <>
-    </>
+    <div className='App'>
+      <h1>Random Joke Generator</h1>
+      <Joke />
+    </div>
   )
 }
 

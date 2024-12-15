@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import '../src/App.css';
 import Joke from'./components/Joke/Joke';
 function App() {
   
